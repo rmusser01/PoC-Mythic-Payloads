@@ -1,4 +1,8 @@
 # PoC-Mythic-Payloads
+- [Boa](#boa)
+- [Dog](#dog)
+- [Frog](#frog)
+- [Ode](#ode)
 
 ### Proof-of-Concept Payload Types Based on Existing Mythic Payloads
 - **101**
@@ -7,13 +11,13 @@
 	* Idea is to demonstrate what a simple, working payload looks like, along with providing a possible base for additional modifications and additions. This is to help with others in learning how to write a sample C2 agent, following an established model, with extensibility.
 	* Each of the payloads have had their folder setup appropriately, such that you can clone/download this repo, and point mythic to any of the contained folders.
 		* The designated payload should load without any issues.
-- **Boa**
+- **Boa**<a name="boa"></a>
 	- **Execution Flow**
-- **Dog**
+- **Dog**<a name="dog"></a>
 	- **Execution Flow**
-- **Frog**
+- **Frog**<a name="frog"></a>
 	- **Execution Flow**
-- **Ode**
+- **Ode**<a name="ode"></a>
 	- This is a fork/slimmed version of Atlas. (https://github.com/MythicAgents/atlas)
 	- **Execution Flow**
 		1. Execution Starts in `Main()` in `Program.cs`
