@@ -46,9 +46,9 @@
        			* Then multiplies the result by `1000`, and returns that as the value for `Dwell`
        	   	3. `System.Threading.Thread.Sleep(Dwell);`
                 * Self-explanatory, process 'sleeps' for the `Dwell` time value established above.
-    - **Understanding Tasking of Ode**
-    	0. Tasking occurs During Step 6 above, specifically with the `Dispatch.Loop(JobList);` function.
-    	1. 
+	- **Understanding Tasking of Ode**
+    		1. Tasking occurs During Step 6 above, specifically with the `Dispatch.Loop(JobList);` function.
+    		2. 
 
 
 
